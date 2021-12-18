@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/courseWork.dir/main.cpp.obj"
-  "courseWork.exe"
-  "courseWork.exe.manifest"
+  "CMakeFiles/courseWork.dir/binary_file.cpp.o"
+  "CMakeFiles/courseWork.dir/main.cpp.o"
+  "courseWork"
   "courseWork.pdb"
-  "libcourseWork.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
