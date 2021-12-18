@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/programming/cpp/courseWork/binary_file.cpp
+binary_file.hpp
+/mnt/c/programming/cpp/courseWork/binary_file.hpp
+string
+-
+iostream
+-
+
 /mnt/c/programming/cpp/courseWork/binary_file.hpp
 string
 -
@@ -14,13 +22,5 @@ iostream
 fstream
 -
 cstring
--
-
-/mnt/c/programming/cpp/courseWork/main.cpp
-iostream
--
-binary_file.hpp
-/mnt/c/programming/cpp/courseWork/binary_file.hpp
-string
 -
 

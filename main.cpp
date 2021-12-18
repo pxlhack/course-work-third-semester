@@ -18,7 +18,7 @@ using namespace std;
 // заголовок по умолчанию
 char *BinaryFile::listName = (char *) ("bin");
 
-/*int main() {
+int main() {
     cout << HELP << endl;
 
     std::string str;
@@ -134,26 +134,6 @@ char *BinaryFile::listName = (char *) ("bin");
         }
     } while (flag);
     return 0;
-}*/
+}
 
-/*
-int main() {
-    char set_str[] = "foo1234";
-    int length = strlen(set_str);
-    char *string1 = new char[length + 1];
-    char *string2 = new char[length + 1];
-    const char *i = set_str;
-    char *j = string1;
 
-    while (*i ) {
-        *j = *i;
-        ++i;
-        ++j;
-    }
-    for (int k = 0; k < length; ++k) {
-        string2[k] = set_str[k];
-    }
-    cout << string1 << endl;
-    cout << string2 << endl;
-    cout << strcmp(string1, string2);
-}*/

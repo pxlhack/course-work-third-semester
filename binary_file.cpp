@@ -92,9 +92,7 @@ std::ostream &operator<<(ostream &out, BinaryFile &file) {
         file.read((char *) &_length, sizeof(_length)); // Читаем длину следующего элемента
         strout = new char[_length];
         file.read(strout, _length);
-        if (_next) {
-            out << i << ") \t" << strout << endl;
-        }
+        out << i << ") \t" << strout << endl;
         delete[]strout;
         i++;
     } while (_next);
